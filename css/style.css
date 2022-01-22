@@ -1,3 +1,24 @@
+/* ==============================
+    CUSTOM COLOR TEMPLATE
+================================= */
+.slider-bg {
+  background: #feeae9;
+}
+.text-price {
+  color: #ff136f;
+}
+.gradient-pink {
+  background: linear-gradient(180deg, #ff589b -0.01%, #ff136f 99.99%);
+}
+.gradient-yellow {
+  background: linear-gradient(152.07deg, #ff9c35 1.47%, #ffd019 97.17%);
+}
+.gradient-blue {
+  background: linear-gradient(170.41deg, #4289ff -10.89%, #3f07f8 92.77%);
+}
+/* ==============================
+    CUSTOM COLOR TEMPLATE END
+================================= */
 .search-nav {
   flex-grow: 0;
 }
@@ -42,4 +63,10 @@ input[type="search"]:focus {
   .search-form {
     margin-left: -35%;
   }
+}
+.cats img {
+  width: 90px;
+}
+.cat {
+  width: 30%;
 }
